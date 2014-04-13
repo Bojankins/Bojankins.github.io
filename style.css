@@ -1,23 +1,26 @@
 html {
-	margin: 1em;
-	height: 1em;
+	margin: 3em;
+	height: 3em;
+
 }
 
 body {
-	background: #1A1514;
+  background-image: url('bgrepeat.jpg');
+	margin: center;
+
+
 }
 
 .skybg {
-	margin: auto;
 	border: 7px solid black;
+	margin: center;
 }
 
 .title	{
 	font-family: 'IM Fell Great Primer', serif;
 	background: hsla(194 ,55% ,59%, .5);
 	position: absolute;
-	top: 2em;
+	top: 10%;
 	left: 0;
 	width: 100%;
 	text-align: center;
-}
