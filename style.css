@@ -1,11 +1,11 @@
 html {
-	margin: 3em;
-	height: 3em;
+	margin: 2em;
+	height: 2em;
 
 }
 
 body {
-  background-image: url('bgrepeat.jpg');
+  background: #a1a8a5;
 	margin: center;
 
 
@@ -18,9 +18,9 @@ body {
 
 .title	{
 	font-family: 'IM Fell Great Primer', serif;
-	background: hsla(194 ,55% ,59%, .5);
+	background: hsla(194 ,55% ,59%, .8);
 	position: absolute;
-	top: 10%;
+	top: 6%;
 	left: 0;
 	width: 100%;
 	text-align: center;
