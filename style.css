@@ -13,7 +13,9 @@ body {
 
 .skybg {
 	border: 7px solid black;
-	margin: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .title	{
@@ -24,3 +26,11 @@ body {
 	left: 0;
 	width: 100%;
 	text-align: center;
+}
+
+.supercalc {
+	background: white;
+	margin-top: 1em;
+	border: 2px solid black;
+}
+
