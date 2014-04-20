@@ -1,0 +1,28 @@
+html {
+  margin: 2em;
+  height: 2em;
+}
+body {
+  background: #a1a8a5;
+  margin: center;
+}
+.skybg {
+  border: 7px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-family: 'Nova Square', cursive;
+  background: rgba(93, 181, 208, 0.8);
+  position: absolute;
+  top: 6%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.supercalc {
+  background: #D4EBED;
+  margin-top: 1em;
+  border: 2px solid black;
+}
