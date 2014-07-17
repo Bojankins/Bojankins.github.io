@@ -21,8 +21,12 @@ body {
   width: 100%;
   text-align: center;
 }
-.supercalc {
+iframe#supercalc{
   background: #D4EBED;
   margin-top: 1em;
   border: 2px solid black;
+}
+
+iframe.superbank{
+  
 }
