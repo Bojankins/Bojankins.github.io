@@ -1,6 +1,9 @@
 html {
   margin: 2em;
   height: 2em;
+  font-family: 'Serreria Sobria'; 
+  font-weight: normal; 
+  font-style: normal; 
 }
 body {
   background: #a1a8a5;
