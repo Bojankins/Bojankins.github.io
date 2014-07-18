@@ -1,4 +1,4 @@
-html {
+/*html {
   margin: 2em;
   height: 2em;
   font-family: 'Serreria Sobria'; 
@@ -8,7 +8,19 @@ html {
 body {
   background: #a1a8a5;
   margin: center;
+}*/
+
+.icon:hover{
+  opacity: 1.0;
+  height:125px;
+  width:125px;
 }
+.parallax-window {
+  min-height: 800px;
+  background: transparent;
+  width: 100%;
+}
+/*
 .skybg {
   border: 7px solid black;
   display: block;
@@ -28,8 +40,4 @@ iframe#supercalc{
   background: #D4EBED;
   margin-top: 1em;
   border: 2px solid black;
-}
-
-iframe.superbank{
-  
-}
+}*/
