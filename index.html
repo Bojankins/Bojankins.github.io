@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-    <script src='js/parallax.js'></script>
-    <script src='js/parallax.min.js'></script>
     <title>Matthew-Olson Portfolio</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure.css">
     <link rel="stylesheet" href="css/layouts/app.css">
@@ -34,7 +32,7 @@
                     <a href="#">Services</a>
                 </li>
 
-                <li><a href="#">Contact</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
 
         </div>
@@ -47,30 +45,36 @@
                 <img src="git.png" class="icon">
             </a>
             <h2>:Link to my GitHub Account</h2>
+            <h2class="content-subhead"><a href="mailto:matthew.olson808@gmail.com">matthew.olson808@gmail.com</a><br><a href="callto:270-202-8695"></a>270-202-8695</h2>
         </div>
 
         <div class="content">
-            <h2 class="content-subhead">How to use this layout</h2>
-            <p>
-                To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/css/layouts/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
-            </p>
+            <div class="about">
+                <h2 class="content-subhead">How to use this layout</h2>
+                <p>
+                    To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/css/layouts/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
+                </p>
 
-            <h2 class="content-subhead">Now Let's Speak Some Latin</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-            <div# class="pure-g parallax-window" data-parallax='scroll' data-speed='.3' data-image-src='/media/buildings/HardyFamilyFord.jpg')>
-                <div class="pure-u-1">
-                    <img class="pure-img-responsive" src="background.jpg">
-                </div>
+                <h2 class="content-subhead">Now Let's Speak Some Latin</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
             </div>
+
+            <div class="bg" >
+                <img class="pure-img-responsive" src="background.jpg">
+            </div>
+            
 
             <div>
                 <div>
-                    <iframe id="supercalc" class="" src='http://matthew-olson.com/super-calc/' height="470" frameborder="2"></iframe>
-                    <iframe class=superbank src='http://matthew-olson.com/super-bank/' height="300" width="650" frameborder="2"></iframe>
-                    <iframe class=Yahtzee src='http://matthew-olson.com/Yahtzee/'height="400" width="500" frameborder="2">
+                    <div class="iframe1">
+                        <iframe id="supercalc" class="" src='http://matthew-olson.com/super-calc/' height="470" frameborder="2"></iframe>
+                    </div>
+                    <div class="iframe2">
+                        <iframe class=superbank src='http://matthew-olson.com/super-bank/' height="300" width="650" frameborder="0"></iframe>
+                    </div>
+                    <iframe class=Yahtzee src='http://matthew-olson.com/Yahtzee/'height="400" width="100%" frameborder="2"></iframe>
                     <iframe class=checkers src='http://matthew-olson.com/checkers/'height="400" width="500" frameborder="2"></iframe>
                 </div>
             </div>
@@ -84,11 +88,7 @@
     </div>
 </div>
 
-<script src='./js/jquery-2.1.0.js'></script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
-<script src='./js/parallax.js'></script>
-<script src='./js/parallax.min.js'></script>
-<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
 
 
 </body>

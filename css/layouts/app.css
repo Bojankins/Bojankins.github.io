@@ -1,43 +1,28 @@
-/*html {
-  margin: 2em;
-  height: 2em;
-  font-family: 'Serreria Sobria'; 
-  font-weight: normal; 
-  font-style: normal; 
-}
-body {
-  background: #a1a8a5;
-  margin: center;
-}*/
 
 .icon:hover{
   opacity: 1.0;
   height:125px;
   width:125px;
 }
-.parallax-window {
-  min-height: 800px;
-  background: transparent;
-  width: 100%;
-}
-/*
-.skybg {
-  border: 7px solid black;
+
+#supercalc{
+  margin: auto;
+  margin-top: -10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border: 2px solid black
 }
-.title {
-  font-family: 'Nova Square', cursive;
-  background: rgba(93, 181, 208, 0.8);
-  position: absolute;
-  top: 6%;
-  left: 0;
-  width: 100%;
-  text-align: center;
+
+.about{
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
-iframe#supercalc{
-  background: #D4EBED;
-  margin-top: 1em;
-  border: 2px solid black;
-}*/
+
+.iframe1{
+  background-color: whitesmoke;
+}
+
+.iframe2{
+  background-color: rgb(31,141,214);
+  border:2px solid black;
+}

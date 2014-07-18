@@ -1,8 +1,13 @@
+html{
+    margin: 0px;
+    background-color: #DDF1FF;
+}
 #main{
     background-color: #DDF1FF;
 }
 
 body {
+    margin: 0px;
     color: #777;
 }
 
@@ -10,6 +15,7 @@ body {
     max-width: 100%;
     border: 3px solid black;
     height: auto;
+    margin-bottom: 0px;
 }
 
 /*
@@ -49,8 +55,6 @@ The content `<div>` is where all your content goes.
 */
 .content {
     margin: 0 auto;
-    padding: 0 2em;
-    max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
 }
@@ -59,7 +63,7 @@ The content `<div>` is where all your content goes.
      margin: 0;
      color: #333;
      text-align: center;
-     padding: 2.5em 2em 0;
+/*     padding: 2.5em 2em 0;*/
      border-bottom: 1px solid #eee;
  }
     .header h1 {
@@ -74,11 +78,11 @@ The content `<div>` is where all your content goes.
         margin-top: 0;
     }
 
-.content-subhead {
+/*.content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
     color: #888;
-}
+}*/
 
 
 
@@ -217,11 +221,6 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 */
 @media (min-width: 48em) {
 
-    .header,
-    .content {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
 
     #layout {
         padding-left: 150px; /* left col width "#menu" */
